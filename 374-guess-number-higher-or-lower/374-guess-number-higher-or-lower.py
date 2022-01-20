@@ -5,6 +5,7 @@
 
 class Solution:
     def guessNumber(self, n: int) -> int:
+        #Using Binary search
         low, high = 0, n
         while low <= high:
             mid = (low + high) // 2
