@@ -1,4 +1,5 @@
 class Solution:
+    @lru_cache(None)
     def sequentialDigits(self, low: int, high: int) -> List[int]:
         res = []
         
