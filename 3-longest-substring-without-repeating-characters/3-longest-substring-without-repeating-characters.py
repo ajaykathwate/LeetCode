@@ -1,5 +1,4 @@
 class Solution:
-    @lru_cache(None)
     def lengthOfLongestSubstring(self, s: str) -> int:
         charset = set()
         start = 0
