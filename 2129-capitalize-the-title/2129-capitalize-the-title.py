@@ -1,4 +1,5 @@
 class Solution:
+    @lru_cache(None)
     def capitalizeTitle(self, title: str) -> str:
         arr = title.split(" ")
         lst = []
