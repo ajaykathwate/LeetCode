@@ -1,13 +1,6 @@
 class Solution:
     @lru_cache(None)
     def capitalizeTitle(self, title: str) -> str:
-        arr = title.split(" ")
-        lst = []
-        for i in arr:
-            if len(i) >= 3:
-                ttl = i[0].upper() + i[1:].lower()
-                lst.append(ttl)
-            else:
-                w = i.lower()
-                lst.append(w)
+        lst = [(i[0].upper() + i[1:].lower())  if len(i) >= 3 else i.lower() for i in title.split(" ")]
+        
         return " ".join(lst)
