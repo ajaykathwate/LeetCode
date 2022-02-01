@@ -7,7 +7,6 @@ class Solution:
         while end < len(arr):
             if arr[start] < arr[end]:
                 profit  = arr[end] - arr[start]
-                print("profit",profit)
                 maxProfit = max(maxProfit, profit)
             else:
                 start = end
