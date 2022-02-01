@@ -4,7 +4,6 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    @lru_cache(None)
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         fast = slow = head
         for i in range(n):
