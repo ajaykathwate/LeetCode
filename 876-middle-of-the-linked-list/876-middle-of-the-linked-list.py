@@ -20,4 +20,3 @@ class Solution:
                 counter += 1
                 node = node.next
         return None
-    
