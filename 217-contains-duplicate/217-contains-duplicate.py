@@ -4,6 +4,5 @@ class Solution:
         for i in nums:
             if i in arr:
                 return True
-            else:
-                arr.add(i)
+            arr.add(i)
         return False
