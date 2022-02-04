@@ -1,6 +1,6 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        dict = {}
+        dict = {} # 976ms
         for i, val in enumerate(nums):
             if val in dict:
                 return True
