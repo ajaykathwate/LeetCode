@@ -1,4 +1,5 @@
 class Solution:
+    
     def shortestPathLength(self, graph: List[List[int]]) -> int:
         N = len(graph)
         INF = 10 ** 10
