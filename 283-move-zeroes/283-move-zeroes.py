@@ -7,4 +7,3 @@ class Solution:
             if i == 0:
                 nums.append(i)
                 nums.remove(i)
-        return nums
