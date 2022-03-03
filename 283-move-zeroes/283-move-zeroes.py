@@ -3,7 +3,7 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        for i in nums:
-            if i == 0:
-                nums.append(i)
-                nums.remove(i)
+        for num in nums:
+            if num == 0:
+                nums.remove(num)
+                nums.append(num)
