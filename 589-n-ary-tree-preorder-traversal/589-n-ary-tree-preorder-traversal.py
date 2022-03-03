@@ -7,6 +7,7 @@ class Node:
 """
 
 class Solution:
+    @lru_cache
     def preorder(self, root: 'Node') -> List[int]:
         if not root: return
         q = deque([root])
