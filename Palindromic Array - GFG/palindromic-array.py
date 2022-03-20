@@ -2,7 +2,6 @@
 # Function should return True/False or 1/0
 def PalinArray(arr ,n):
     # Code here
-    res = 0
     for i in arr:
         if str(i)[::-1] != str(i):
             return 0
